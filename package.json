@@ -1,0 +1,39 @@
+{
+  "name": "typescript-crud-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhj1008/typescript-crud-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhhj1008/typescript-crud-example/issues"
+  },
+  "homepage": "https://github.com/hhhj1008/typescript-crud-example#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/node": "^18.11.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "typeorm": "^0.3.10",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/morgan": "^1.9.3",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1"
+  }
+}
